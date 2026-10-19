@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="António Pacheco - Software Developer. Portefólio e currículo profissional.">
+    <title>António Pacheco | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER / NAVEGAÇÃO ===== -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#inicio" class="nav__logo">AP<span>.</span></a>
+
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="#inicio" class="nav__link active">Início</a></li>
+                <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                <li><a href="#experiencia" class="nav__link">Experiência</a></li>
+                <li><a href="#formacao" class="nav__link">Formação</a></li>
+                <li><a href="#competencias" class="nav__link">Competências</a></li>
+                <li><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+                <button class="nav__hamburger" id="nav-hamburger" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section class="hero container" id="inicio">
+            <div class="hero__content reveal">
+                <p class="hero__greeting">Olá, eu sou 👋</p>
+                <h1 class="hero__title">António Pacheco</h1>
+                <h2 class="hero__subtitle">Software <span class="typed" id="typed"></span></h2>
+                <p class="hero__text">
+                    Desenvolvedor de Software em início de carreira, em busca de
+                    oportunidades para aplicar e expandir conhecimentos em desenvolvimento
+                    de sistemas, criando soluções eficientes, escaláveis e de qualidade.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#contacto" class="btn btn--primary">Contactar</a>
+                    <a href="#experiencia" class="btn btn--outline">Ver Experiência</a>
+                </div>
+            </div>
+            <div class="hero__avatar reveal">
+                <div class="avatar-circle">
+                    <img src="perfil.jpg" alt="António Pacheco" class="avatar-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE ===== -->
+        <section class="section container" id="sobre">
+            <h2 class="section__title reveal">Sobre <span>Mim</span></h2>
+            <div class="sobre__grid">
+                <div class="reveal">
+                    <p>
+                        Com um percurso multidisciplinar que passa pela mecânica,
+                        eletricidade, telecomunicações e design gráfico, trago uma visão
+                        prática e orientada à resolução de problemas para o mundo do
+                        desenvolvimento de software.
+                    </p>
+                    <p>
+                        Atualmente a frequentar o curso de <strong>Técnico de Programação de
+                            Sistemas de Informação (IEFP – Nível 5)</strong>, com foco em
+                        aprendizagem contínua e crescimento profissional.
+                    </p>
+                </div>
+                <div class="sobre__cards reveal">
+                    <div class="card-info">
+                        <span class="card-info__num" data-count="8">0</span>
+                        <span>Anos de experiência profissional</span>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-info__num" data-count="6">0</span>
+                        <span>Linguagens & tecnologias</span>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-info__num" data-count="3">0</span>
+                        <span>Idiomas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIÊNCIA ===== -->
+        <section class="section section--alt" id="experiencia">
+            <div class="container">
+                <h2 class="section__title reveal">Experiência <span>Profissional</span></h2>
+                <div class="timeline">
+                    <div class="timeline__item reveal">
+                        <span class="timeline__date">09/2024 – 06/2025</span>
+                        <h3>Designer Gráfico & Eletricidade</h3>
+                        <p class="timeline__empresa">Fábrica de Cartonagem</p>
+                        <p>Design gráfico e manutenção elétrica industrial.</p>
+                    </div>
+                    <div class="timeline__item reveal">
+                        <span class="timeline__date">04/2023 – 06/2024</span>
+                        <h3>Operador de Máquinas e Mecânico</h3>
+                        <p class="timeline__empresa">Fábrica de Metalomecânica</p>
+                        <p>Operação de máquinas industriais e manutenção mecânica.</p>
+                    </div>
+                    <div class="timeline__item reveal">
+                        <span class="timeline__date">01/2023 – 04/2023</span>
+                        <h3>Vendas & Pós-venda</h3>
+                        <p class="timeline__empresa">Telecomunicações NOS, MEO, Vodafone</p>
+                        <p>Venda de serviços de telecomunicações e acompanhamento pós-venda de clientes.</p>
+                    </div>
+                    <div class="timeline__item reveal">
+                        <span class="timeline__date">03/2017 – 01/2023</span>
+                        <h3>Responsável / Mecânico</h3>
+                        <p class="timeline__empresa">AP Serviços, Benguela (Angola)</p>
+                        <p>
+                            Oficina mecânica e venda de acessórios. Gestão do negócio, vendas
+                            de divisas, gestão de tráfego e abertura de contas internacionais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FORMAÇÃO ===== -->
+        <section class="section container" id="formacao">
+            <h2 class="section__title reveal">Formação <span>Académica</span></h2>
+            <div class="formacao__grid">
+                <div class="card reveal">
+                    <span class="card__icon">💻</span>
+                    <span class="card__date">2026 – 2027</span>
+                    <h3>Técnico de Programação de S. Informação</h3>
+                    <p>IEFP – Nível 5</p>
+                </div>
+                <div class="card reveal">
+                    <span class="card__icon">🔧</span>
+                    <span class="card__date">2023 – 2024</span>
+                    <h3>Formação Técnica</h3>
+                    <p>CEPRA</p>
+                </div>
+                <div class="card reveal">
+                    <span class="card__icon">⚖️</span>
+                    <span class="card__date">2016 – 2018</span>
+                    <h3>Bacharel em Direito</h3>
+                    <p>Universidade Jean Piaget</p>
+                </div>
+                <div class="card reveal">
+                    <span class="card__icon">🎓</span>
+                    <span class="card__date">2013 – 2015</span>
+                    <h3>Técnico de Máquinas e Motores</h3>
+                    <p>Ensino Médio Industrial de Benguela – 12ª Classe</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== COMPETÊNCIAS ===== -->
+        <section class="section section--alt" id="competencias">
+            <div class="container">
+                <h2 class="section__title reveal">Competências <span>& Cursos</span></h2>
+                <div class="skills__grid">
+                    <div class="reveal">
+                        <h3 class="skills__subtitle">Programação</h3>
+                        <div class="skill">
+                            <div class="skill__header"><span>HTML</span><span>85%</span></div>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__header"><span>CSS</span><span>80%</span></div>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__header"><span>JavaScript</span><span>70%</span></div>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__header"><span>Python</span><span>65%</span></div>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__header"><span>Java</span><span>60%</span></div>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <h3 class="skills__subtitle">Outras Competências</h3>
+                        <div class="tags">
+                            <span class="tag">Lógica de Programação</span>
+                            <span class="tag">Design Gráfico</span>
+                            <span class="tag">Canva</span>
+                            <span class="tag">Eletricidade</span>
+                            <span class="tag">Legislação</span>
+                            <span class="tag">Liderança</span>
+                            <span class="tag">Gestão de Projetos</span>
+                            <span class="tag">Inovação</span>
+                        </div>
+                        <h3 class="skills__subtitle">Idiomas</h3>
+                        <div class="tags">
+                            <span class="tag tag--lang">🇵🇹 Português</span>
+                            <span class="tag tag--lang">🇬🇧 Inglês</span>
+                            <span class="tag tag--lang">🇪🇸 Espanhol</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACTO ===== -->
+        <section class="section container" id="contacto">
+            <h2 class="section__title reveal">Entre em <span>Contacto</span></h2>
+            <div class="contacto__grid">
+                <div class="contacto__info reveal">
+                    <div class="contacto__item">
+                        <span>📍</span>
+                        <p>Rua Arqueólogo Mário Cardoso, N321 4º Esq.<br>4800-287 Guimarães, Portugal</p>
+                    </div>
+                    <div class="contacto__item">
+                        <span>📞</span>
+                        <p><a href="tel:+351910757778">+351 910 757 778</a></p>
+                    </div>
+                    <div class="contacto__item">
+                        <span>✉️</span>
+                        <p><a href="mailto:timoteopacheco65@gmail.com">timoteopacheco65@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <!-- ===== ATENÇÃO: É AQUI QUE TEM DE ALTERAR O CÓDIGO ===== -->
+                <!-- Substitua SEU_ID_AQUI pelo código final que o Formspree lhe der -->
+                <form class="contacto__form reveal" id="contact-form" action="https://formspree.io/f/SEU_ID_AQUI"
+                    method="POST">
+                    <input type="text" id="nome" name="nome" placeholder="O seu nome" required>
+                    <input type="email" id="email" name="email" placeholder="O seu email" required>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="A sua mensagem" required></textarea>
+                    <button type="submit" class="btn btn--primary" id="btn-submit">Enviar Mensagem</button>
+                    <p class="form__feedback" id="form-feedback"></p>
+                </form>
+                <!-- ========================================================= -->
+
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>© <span id="ano"></span> António Pacheco — Software Developer. Todos os direitos reservados.</p>
+    </footer>
+
+    <button id="scroll-top" class="scroll-top" aria-label="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
